@@ -35,10 +35,11 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
         return res.json();
     })
     .then(json => console.log(json.filter(obj => obj.id === 5)));
+
 // Test 6.
-
-
+const re = /Softeq|\#rules/g;
 // Test 7.
 let upperCase = [...Array(26)].map((_, i) => String.fromCharCode(i + 65));
 console.log(upperCase);
 
+// Test 8.
