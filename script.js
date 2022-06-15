@@ -40,4 +40,5 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
 
 // Test 7.
 let upperCase = [...Array(26)].map((_, i) => String.fromCharCode(i + 65));
+console.log(upperCase);
 
